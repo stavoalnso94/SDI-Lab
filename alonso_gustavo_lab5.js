@@ -13,25 +13,25 @@ var y;
 
 
 // Functions
-var add = function(x, op, y) {
-	
-	console.log(x + op + y);
-	
-	var addValue = x + y;
-	
-	return addValue;
-
-};
-
-// var subtract = function(x, op, y) {
+// var add = function(x, op, y) {
 // 	
 	// console.log(x + op + y);
 // 	
-	// var subValue = x - y;
+	// var addValue = x + y;
 // 	
-	// return subValue;
-// 	
-// 	
+	// return addValue;
+// 
+// };
+
+var subtract = function(x, op, y) {
+	
+	console.log(x + op + y);
+	
+	var subValue = x - y;
+	
+	return subValue; };
+	
+	
 // };
 // 
 // var divide = function(x, op, y) {
@@ -54,7 +54,7 @@ var add = function(x, op, y) {
 // };
 
 // Main code
-console.log("Today we will be doing some mathematical operations");
+//console.log("Today we will be doing some mathematical operations");
 
 x = parseFloat(prompt("Enter first number"));
 
@@ -76,21 +76,19 @@ y = parseFloat(prompt("Enter second number"));
 // 	
 	// console.log(divResult);
 // 	
-// 
-// } else if(op == "-"){
-// 	
-	// var subResult = subtract(x, op, y);
-// 	
-	// console.log(subResult);
-// 	
-	
-if(op == "+"){
-	
-	var addResult = add(x, op, y);
-	console.log(addResult);
-	
 
-}
+if(op == "-"){
+	
+	var subResult = subtract(x, op, y);
+	
+	console.log(subResult);
+} // else if(op == "+"){
+// 	
+	// var addResult = add(x, op, y);
+	// console.log(addResult);
+// 	
+// 
+// }
 
 
 
