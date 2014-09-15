@@ -13,14 +13,18 @@ var y;
 
 
 // Functions
-var add = function(x, op, y) {
+
+var subtract = function(x, op, y) {
 	
 	console.log(x + op + y);
 	
-	var addValue = x + y;
+	var subValue = x - y;
 	
-	return addValue;
+	return subValue;
+	
+	
 
+	
 };
 
 // Main code
@@ -33,12 +37,12 @@ op = prompt("Enter function");
 y = parseFloat(prompt("Enter second number"));
 
 
-if(op == "+"){
+if(op == "-"){
 	
-	var addResult = add(x, op, y);
-	console.log(addResult);
+	var subResult = subtract(x, op, y);
 	
-
+	console.log(subResult);
+	
 }
 
 
