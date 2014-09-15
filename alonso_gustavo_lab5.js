@@ -14,18 +14,15 @@ var y;
 
 // Functions
 
-var subtract = function(x, op, y) {
+var divide = function(x, op, y) {
 	
 	console.log(x + op + y);
-	
-	var subValue = x - y;
-	
-	return subValue;
-	
-	
 
-	
+	var divValue = x / y;
+		
+	return divValue;
 };
+
 
 // Main code
 console.log("Today we will be doing some mathematical operations");
@@ -36,13 +33,11 @@ op = prompt("Enter function");
 
 y = parseFloat(prompt("Enter second number"));
 
-
-if(op == "-"){
+if(op == "/"){
 	
-	var subResult = subtract(x, op, y);
+	var divResult = divide(x, op, y);
 	
-	console.log(subResult);
-	
+	console.log(divResult);
 }
 
 
