@@ -22,27 +22,27 @@ var y;
 	// return addValue;
 // 
 // };
-
-var subtract = function(x, op, y) {
-	
-	console.log(x + op + y);
-	
-	var subValue = x - y;
-	
-	return subValue; };
-	
-	
-// };
 // 
-// var divide = function(x, op, y) {
+// var subtract = function(x, op, y) {
 // 	
 	// console.log(x + op + y);
-// 
-	// var divValue = x / y;
-// 		
-	// return divValue;
+// 	
+	// var subValue = x - y;
+// 	
+	// return subValue;
+// 	
+// 	
 // };
-// 
+
+var divide = function(x, op, y) {
+	
+	console.log(x + op + y);
+
+	var divValue = x / y;
+		
+	return divValue;
+};
+
 // var multiply = function(x, op, y) {
 // 	
 	// console.log(x + op + y);
@@ -54,7 +54,7 @@ var subtract = function(x, op, y) {
 // };
 
 // Main code
-//console.log("Today we will be doing some mathematical operations");
+console.log("Today we will be doing some mathematical operations");
 
 x = parseFloat(prompt("Enter first number"));
 
@@ -69,20 +69,22 @@ y = parseFloat(prompt("Enter second number"));
 	// var mulResult = multiply(x, op, y);
 // 	
 	// console.log(mulResult);
-// 	
-// } else if(op == "/"){
-// 	
-	// var divResult = divide(x, op, y);
-// 	
-	// console.log(divResult);
-// 	
+	
+if(op == "/"){
+	
+	var divResult = divide(x, op, y);
+	
+	console.log(divResult);};
+	
 
-if(op == "-"){
-	
-	var subResult = subtract(x, op, y);
-	
-	console.log(subResult);
-} // else if(op == "+"){
+// } else if(op == "-"){
+// 	
+	// var subResult = subtract(x, op, y);
+// 	
+	// console.log(subResult);
+// 	
+// 	
+// } else if(op == "+"){
 // 	
 	// var addResult = add(x, op, y);
 	// console.log(addResult);
