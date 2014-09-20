@@ -1,0 +1,51 @@
+//alert("JavaScript works!");
+
+// Alonso Gustavo
+// SDI 1409
+// Lab 3 
+
+// My variables
+var myName             = "Gustavo"       ;            // String data type
+var myLastName         = "Alonso"        ;            // String data type
+var myFavoriteStore    = 'Best Buy\'s'   ;            // String data type with escapes
+var numberOfMiles                        ;        	  // Number data type
+var Highway         	                 ;             // Boolean data type
+
+// My outputs
+console.log("My name is "           + myName            + "."                              );
+console.log("My last name is "      + myLastName        + "."                              );
+console.log("I shop at "            + myFavoriteStore   + "."                              );
+
+
+// My confirm
+Highway                 = confirm("Is it true that you took the highway? \nClick Ok for yes, Cancel for No");
+if                               (Highway    === true    )    {console.log("Yes I took the highway");}
+
+else {console.log("It's " + Highway        + " that I took the highway"); }
+ 
+ // My prompts
+ numberOfMiles          =  prompt("How many miles to the store?", "6.5");
+ if                              (numberOfMiles === 6.5  )    {console.log("Yes, it is 6.5 miles");}
+ else {console.log("It's " + numberOfMiles + " miles to the store.");}
+ 
+ Highway                =  prompt("Where did you go instead? \nEnter where you went");
+ if                              (Highway === "home")         {console.log("I just went home.");} 
+ else {console.log("Seems legit");} 
+
+
+
+
+// myName         = prompt("What is your name?");
+// 
+// if (myName     === "Gustavo") {
+		       // myLastName = prompt("Enter your last name:");
+// if (myLastName === "Alonso") {
+		       // console.log("Welcome, " + myName + " " + myLastName + ".");
+		       // } else {
+		       // console.log("False")
+// ;		       }
+	           // console.log(myName);
+// } else {
+	           // console.log("False");
+// }
+
